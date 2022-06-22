@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tarea2.MainPage">
+
+    <StackLayout>
+        
+        <Entry Placeholder="Nombre" Keyboard="Text" x:Name="txtnombre" Margin="5,0,5,0" />
+        <Entry Placeholder="Apellido" Keyboard="Text" x:Name="txtapellido" Margin="5,0,5,0" />
+        <Entry Placeholder="Edad" Keyboard="Numeric" x:Name="txtedad" Margin="5,0,5,0" />
+        <Entry Placeholder="Correo electronico" Keyboard="Email" x:Name="txtemail" Margin="5,0,5,0" />
+
+
+        <Button Text="Guardar los datos" x:Name="btnenviarseg" Margin="10,0,10,0" Clicked="btnenviar_Clicked" CornerRadius="20" BackgroundColor="#FFEE82EE"/>
+        
+    </StackLayout>
+</ContentPage>

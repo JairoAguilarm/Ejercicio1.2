@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tarea2.Segunapagina">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Nombre:"/>
+            <Label Text="{Binding nombre}"
+                FontSize="Subtitle"
+                Padding="20,0,20,0" x:Name="lblnombre"/>
+            
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Apellido:"/>
+
+            <Label Text="{Binding apellido}" 
+                FontSize="Subtitle"
+                Padding="20,0,20,0"
+                x:Name="lblapellido"/>
+
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Edad:"/>
+            <Label Text="{Binding edad}" 
+                FontSize="Subtitle"
+                Padding="20,0,20,0" x:Name="lbledad"/>
+
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Correo:"/>
+            <Label Text="{Binding correo}"
+                FontSize="Subtitle"
+                Padding="20,0,20,0" x:Name="lblcorreo"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
